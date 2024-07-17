@@ -1,7 +1,7 @@
 {
   "flags": {
     "boolFlag": {
-      "state": "ENABLED",
+      "state": "DISABLED",
       "variants": {
         "on": true,
         "off": false

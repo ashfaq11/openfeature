@@ -13,8 +13,6 @@ import dev.openfeature.sdk.Value;
 
 @Component
 public class OpenFeatureService {
-	
-	
 
 	@Autowired
 	FlagdProvider flagdProvider;
