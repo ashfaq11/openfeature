@@ -14,7 +14,7 @@ import com.trinet.openfeature.service.OpenFeatureService;
 
 import dev.openfeature.sdk.EvaluationContext;
 
-@SpringBootTest
+@SpringBootTest(classes = OpenfeatureApplicationTests.class)
 class OpenfeatureApplicationTests {
 	Logger logger = LoggerFactory.getLogger(OpenfeatureApplicationTests.class);
 
