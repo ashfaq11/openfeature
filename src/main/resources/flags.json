@@ -1,0 +1,36 @@
+{
+  "flags": {
+    "boolFlag": {
+      "state": "ENABLED",
+      "variants": {
+        "on": true,
+        "off": false
+      },
+      "defaultVariant": "on"
+    },
+      "stringFlag": {
+      "state": "ENABLED",
+      "variants": {
+        "key1": "val1",
+        "key2": "val2"
+      },
+      "defaultVariant": "key1"
+    },
+      "DoubleFlag": {
+      "state": "ENABLED",
+      "variants": {
+        "on": 1.1,
+        "off": 2.1
+      },
+      "defaultVariant": "on"
+    },
+      "intFlag": {
+      "state": "ENABLED",
+      "variants": {
+        "on": 1,
+        "off": 2
+      },
+      "defaultVariant": "on"
+    }
+  }
+}
