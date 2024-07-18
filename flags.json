@@ -9,7 +9,7 @@
       "defaultVariant": "on"
     },
       "stringFlag": {
-      "state": "ENABLED",
+      "state": "DISABLED",
       "variants": {
         "key1": "val1",
         "key2": "val2"
