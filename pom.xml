@@ -12,7 +12,7 @@
 	<groupId>com.trinet</groupId>
 	<artifactId>openfeature-flagd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>openfeature</name>
+	<name>openfeature-flagd</name>
 	<description>Demo project for Spring Boot openfeature flagd</description>
 	<url />
 	<licenses>
@@ -46,12 +46,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			<exclusions>
+		<!--	<exclusions>
 				<exclusion>
 					<groupId>com.vaadin.external.google</groupId>
 					<artifactId>android-json</artifactId>
 				</exclusion>
-			</exclusions>
+			</exclusions>  
+			-->
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/dev.openfeature/sdk -->
